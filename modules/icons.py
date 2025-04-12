@@ -5,7 +5,7 @@ font_weight: str = 'normal'
 span: str = f"<span font-family='{font_family}' font-weight='{font_weight}'>"
 
 #Panels
-apps: str = "&#xf1fd;"
+apps: str = "&#xf615;"
 dashboard: str = "&#xea87;"
 chat: str = "&#xf59f;"
 wallpapers: str = "&#xeb01;"
