@@ -1196,7 +1196,7 @@ class NotificationContainer(Box):
 class NotificationPopup(Window):
     def __init__(self, **kwargs):
         y_pos = data.NOTIF_POS.lower()
-        x_pos = "right"
+        x_pos = "center"
 
         if data.BAR_POSITION in ["Top", "Bottom"] and data.PANEL_POSITION == "End" and data.NOTIF_POS == data.BAR_POSITION:
             x_pos = "left"
