@@ -12,7 +12,7 @@ APP_NAME_CAP = "Ax-Shell"
 
 
 PANEL_POSITION_KEY = "panel_position"
-PANEL_POSITION_DEFAULT = "Center"
+PANEL_POSITION_DEFAULT = "Start"
 NOTIF_POS_KEY = "notif_pos"
 NOTIF_POS_DEFAULT = "Top"
 
@@ -35,11 +35,11 @@ MATUGEN_STATE_FILE = os.path.join(CONFIG_DIR, "matugen")
 
 
 BAR_WORKSPACE_USE_CHINESE_NUMERALS = True
-BAR_THEME = "Pills"
+BAR_THEME = "Dense"
 
-DOCK_THEME = "Pills"
+DOCK_THEME = "Dense"
 
-PANEL_THEME = "Notch"
+PANEL_THEME = "Panel"
 
 def load_config():
     """Load the configuration from config.json"""
@@ -108,7 +108,7 @@ else:
     BAR_WORKSPACE_USE_CHINESE_NUMERALS = True
     BAR_THEME = "Dense"
     DOCK_THEME = "Dense"
-    PANEL_THEME = "Notch"
+    PANEL_THEME = "Panel"
 
     PANEL_POSITION = PANEL_POSITION_DEFAULT
     NOTIF_POS = NOTIF_POS_DEFAULT
@@ -123,6 +123,7 @@ else:
         'button_overview': True,
         'ws_container': True,
         'weather': True,
+        'dashboard': True,
         'battery': True,
         'metrics': True,
         'language': True,

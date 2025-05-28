@@ -45,18 +45,18 @@ DEFAULTS = {
     'wallpapers_dir': WALLPAPERS_DIR_DEFAULT,
     'prefix_restart_inspector': "SUPER CTRL ALT",
     'suffix_restart_inspector': "B",
-    'bar_position': "Top",  # New default position setting
-    'vertical': False,  # Kept for backward compatibility
+    'bar_position': "Left",  # New default position setting
+    'vertical': True,  # Kept for backward compatibility
     'centered_bar': False,
     'terminal_command': "kitty -e",
     'dock_enabled': True,
-    'dock_icon_size': 28,
+    'dock_icon_size': 34,
     'dock_always_occluded': False,
-    'bar_workspace_show_number': False,
-    'bar_workspace_use_chinese_numerals': False,
-    'bar_theme': "Pills",
-    'dock_theme': "Pills",
-    'panel_theme': "Notch", # Default panel theme
+    'bar_workspace_show_number': True,
+    'bar_workspace_use_chinese_numerals': True,
+    'bar_theme': "Dense",
+    'dock_theme': "Dense",
+    'panel_theme': "Panel", # Default panel theme
     PANEL_POSITION_KEY: PANEL_POSITION_DEFAULT, # Default panel position
     NOTIF_POS_KEY: NOTIF_POS_DEFAULT, # Nueva entrada para la posición de notificaciones
     'bar_button_apps_visible': True,
