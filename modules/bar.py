@@ -354,7 +354,7 @@ class Bar(Window):
                 else:
                     self.style = "edge"
             case _:
-                self.style = "pills"
+                self.style = "Edge"
 
         self.bar_inner.add_style_class(self.style)
         

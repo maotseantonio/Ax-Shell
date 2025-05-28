@@ -29,12 +29,12 @@ CURRENT_WIDTH = screen.get_width()
 CURRENT_HEIGHT = screen.get_height()
 
 
-WALLPAPERS_DIR_DEFAULT = get_relative_path("../assets/wallpapers_example")
+WALLPAPERS_DIR_DEFAULT = get_relative_path(f"../../../Pictures/wallpapers/")
 CONFIG_FILE = get_relative_path('../config/config.json')
 MATUGEN_STATE_FILE = os.path.join(CONFIG_DIR, "matugen")
 
 
-BAR_WORKSPACE_USE_CHINESE_NUMERALS = False
+BAR_WORKSPACE_USE_CHINESE_NUMERALS = True
 BAR_THEME = "Pills"
 
 DOCK_THEME = "Pills"
@@ -97,17 +97,17 @@ if os.path.exists(CONFIG_FILE):
     METRICS_SMALL_VISIBLE = config.get('metrics_small_visible', {'cpu': True, 'ram': True, 'disk': True, 'gpu': True})
 else:
     WALLPAPERS_DIR = WALLPAPERS_DIR_DEFAULT
-    BAR_POSITION = "Top"
-    VERTICAL = False
+    BAR_POSITION = "Left"
+    VERTICAL = True
     CENTERED_BAR = False
     DOCK_ENABLED = True
     DOCK_ALWAYS_OCCLUDED = False
     TERMINAL_COMMAND = "kitty -e"
-    DOCK_ICON_SIZE = 28
-    BAR_WORKSPACE_SHOW_NUMBER = False
-    BAR_WORKSPACE_USE_CHINESE_NUMERALS = False
-    BAR_THEME = "Pills"
-    DOCK_THEME = "Pills"
+    DOCK_ICON_SIZE = 35
+    BAR_WORKSPACE_SHOW_NUMBER = True
+    BAR_WORKSPACE_USE_CHINESE_NUMERALS = True
+    BAR_THEME = "Dense"
+    DOCK_THEME = "Dense"
     PANEL_THEME = "Notch"
 
     PANEL_POSITION = PANEL_POSITION_DEFAULT
