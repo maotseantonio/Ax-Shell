@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     current_wallpaper = os.path.expanduser("~/.current.wall")
     if not os.path.exists(current_wallpaper):
-        example_wallpaper = os.path.expanduser("/home/antonio/Pictures/wallpapers")
+        example_wallpaper = os.path.expanduser("../../Pictures/wallpapers/")
         os.symlink(example_wallpaper, current_wallpaper)
     
     # Load configuration
